@@ -1,0 +1,36 @@
+
+
+.slider__info_shop img {
+  height: 250px !important;
+  width: 100% !important;
+}
+
+.slider__info_shop ul > li {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.slider__info_shop ul > li > button::before {
+  width: 30px !important;
+  height: 30px !important;
+  font-size: 10px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0.75 !important;
+  color: white !important;
+}
+
+.slick-dots {
+  position: absolute !important;
+  left: 50% !important;
+  top: 70% !important;
+  transform: translate(-50%, -50%) !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+
+.button_on_slide > div{
+  width: 100% !important;
+}

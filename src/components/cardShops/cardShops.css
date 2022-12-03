@@ -1,0 +1,20 @@
+@media all and (max-width: 330px) {
+  .card_shops img {
+    height: 3rem;
+    width: 4rem;
+  }
+  .nameJob {
+    font-size: 0.7rem;
+  }
+  .container_rate_start {
+    flex: 0 !important;
+  }
+
+  .rate_icon {
+    height: 1rem !important;
+  }
+
+  .loans_from_to{
+      padding-right:0 !important ;
+  }
+}

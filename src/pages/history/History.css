@@ -1,0 +1,23 @@
+
+  .container_header_history {
+    height: 223px;
+   
+  }
+  .container_history_card {
+    height: calc(93vh - 233px);
+   
+
+  }
+
+
+.history .react-tabs__tab--selected {
+  background: #0096f5 !important;
+  color: white !important;
+  border-radius: 0.5rem !important;
+  border: hidden !important;
+  outline: none !important;
+}
+
+.container_history_card::-webkit-scrollbar {
+  display: none;
+}

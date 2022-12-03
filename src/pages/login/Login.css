@@ -1,0 +1,12 @@
+.container-login {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 95vh;
+}
+
+@media all and (max-width: 768px) {
+  .container-login {
+    height: 90vh;
+  }
+}

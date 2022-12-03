@@ -1,0 +1,61 @@
+.menuHome {
+  position: fixed;
+  left: 50%;
+  width: 400px;
+  margin: 0px auto !important;
+  transform: translate(-50%, -50%);
+}
+
+.li_icon_menu {
+  position: relative;
+  transform: translateY(0px);
+  transition: all 0.5s ease-in-out;
+}
+
+.li_icon_menu svg {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.setting_icon_menu svg {
+  transform: rotate(90deg);
+}
+
+.li_icon_menu p {
+  position: absolute;
+  top: 36px;
+  left: 50%;
+  transform: translateY(0px);
+  transform: translate(-50%, -50%);
+  font-family: "regularYekan";
+  font-size: 0.75rem;
+  color: #fff;
+  opacity: 0;
+}
+
+.li_icon_menu.activeMenuItem {
+  transition: all 0.5s ease-in;
+  transform: translateY(-8px);
+}
+
+.li_icon_menu.activeMenuItem p {
+  opacity: 1;
+}
+
+.menu-container {
+  transform: translate(-50%, -50%);
+}
+
+.shadow-qr {
+  box-shadow: 5px 8px 15px rgb(0 0 0 / 33%);
+}
+
+.shadow-menu {
+  box-shadow: 10px 10px 15px rgb(0 0 0 / 20%);
+}
+
+@media all and (max-width: 330px) {
+  .menu__container_ {
+    width: 85%;
+  }
+}

@@ -1,0 +1,38 @@
+.body_shops{
+    overflow-x: scroll;
+}
+.container_header_shops {
+  height: 165px;
+}
+
+.container_lottie_card {
+  height: calc(93vh - 165px);
+}
+
+
+.content {
+  display: grid;
+  grid-template-columns: 50%;
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 330px) {
+  .container_shops {
+    padding: 0 0.60rem !important;
+    margin: 0 0.15rem
+  }
+}
+
+.container_shops::-webkit-scrollbar {
+  display: none;
+}

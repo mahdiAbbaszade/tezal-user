@@ -1,0 +1,30 @@
+.made-up {
+  display: grid;
+  grid-template-columns: 90%;
+  justify-content: space-around;
+  /* justify-items: center; */
+  gap: 2rem;
+  border-radius: 10px;
+  border-radius: 0.30rem;
+  padding: 0 1rem;
+}
+
+.brown,
+.made-up legend {
+  background: #0096f5;
+  color: #fff;
+  font-family: "yekanBold";
+  font-size: 0.75rem;
+}
+
+.made-up legend {
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.container-btn {
+  display: grid;
+  grid-template-columns: 80%;
+  justify-content: center;
+  align-items: flex-end;
+}

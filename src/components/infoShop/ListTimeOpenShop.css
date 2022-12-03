@@ -1,0 +1,60 @@
+.containerListTimeOpen {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 130px));
+  justify-content: center;
+}
+
+.containerListTimeOpen > div:last-child {
+  grid-column: 2 span;
+}
+
+.modalListTimeOpenShop {
+  animation: bottom_top 0.4s;
+  transition: all 10s ease-in;
+}
+
+@keyframes bottom_top {
+  0% {
+    opacity: 0;
+    transition: all 10s ease-out;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transition: all 10s ease-in;
+    transform: translateY(0px);
+  }
+}
+
+.closeListTimeInfoShop {
+  animation: top_bottom 0.4s;
+  transition: all 10s ease-in;
+}
+
+@keyframes top_bottom {
+  0% {
+    opacity: 0;
+    transition: all 10s ease-out;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transition: all 10s ease-in;
+    transform: translateY(100px);
+  }
+}
+
+.ReactModal__Overlay {
+  opacity: 1;
+  transition: all 100ms ease-in-out;
+}
+
+/* .ReactModal__Overlay--after-open {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+   */
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+  transform: translateY(100px);
+}

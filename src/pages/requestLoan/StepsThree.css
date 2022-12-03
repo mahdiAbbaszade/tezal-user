@@ -1,0 +1,40 @@
+.table-info-requestLoan {
+  border-spacing: 0;
+  box-shadow: 0 1px 1px #cccccc;
+}
+
+.table-info-requestLoan,
+th,
+td {
+  border: 1px solid #808e9b;
+  border-collapse: collapse;
+  padding: 0px;
+}
+
+th,
+td {
+  padding: 0 7px;
+  text-align: right;
+  color: #1e272e !important;
+}
+
+.table-info-requestLoan>tbody>tr>th {
+  font-family: ExtraBold;
+  font-size: 0.85rem;
+  background-color: #dce9f9;
+  background-image: -moz-linear-gradient(center top, #f8f8f8, #ececec);
+  background-image: -webkit-gradient(linear,
+      0 0,
+      0 bottom,
+      from(#f8f8f8),
+      to(#ececec),
+      color-stop(0.4, #f8f8f8));
+  border-top: medium none;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8) inset;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.table-info-requestLoan>tr>td {
+  font-size: 0.85rem;
+  font-family: "yekanBold" !important;
+}

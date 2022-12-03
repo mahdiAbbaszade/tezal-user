@@ -1,0 +1,32 @@
+.user_image {
+  box-shadow: 6px 17px 54px 1px rgb(0 0 0 / 30%) !important;
+}
+.username_profile {
+  position: relative;
+}
+.username_profile::after {
+  content: "";
+  position: absolute;
+  left: 46%;
+  top: 160%;
+  transform: translate(-50%, -50%);
+  border-bottom: 1px solid #808e9b;
+  width: 70%;
+}
+
+.card_info_profile {
+  box-shadow: 0px 21px 35px -20px rgb(0 0 0 / 79%) !important;
+}
+
+.container__profile_user {
+  height: 490px;
+}
+
+.container_notfication_user {
+  height: calc(93vh - 490px);
+  /* margin-top: 490px !important; */
+}
+
+.container_notfication_user::-webkit-scrollbar{
+  display: none !important;
+}

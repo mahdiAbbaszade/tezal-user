@@ -1,0 +1,20 @@
+.container-signup-login{
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    justify-items: center;
+}
+
+@media all and (max-width:768px) {
+    .container-signup-login{
+        grid-template-columns: 90%;
+    }
+}
+
+.cTel{
+    color:#1e272e
+}
+
+.border-login-signup-input{
+    border-bottom: 1px solid #1e272e;
+}
